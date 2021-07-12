@@ -10,7 +10,7 @@ void Disco::carregarDisco()
 {
 	string linha, diretorio;
 	ifstream myfile;
-	myfile.open("/home/lucas/Desktop/memoria-simulador-teste/dataset/arquivos_exemplo.txt");
+	myfile.open("simulador-memoria-processador/memoria-simulador-teste/dataset/arquivos_exemplo.txt");
 	if(myfile.is_open())
 	{
 		contarLinhas(myfile);
