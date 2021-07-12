@@ -12,7 +12,7 @@
   - Executar
  
         terminal:
-        ./memoria-simulador/
+        ./memoria-simulador-teste/
         ./make clean
         ./make
         ./make run
